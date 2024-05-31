@@ -36,7 +36,7 @@ VODA AI와 대화만 하면 일기가 만들어집니다!
 
 ## 🙇 팀원 소개
 
-|          [👑전소민](https://github.com/goflvhxj96)          |          [김병주](https://github.com/defkimbyeongju)          |          [김진호](https://github.com/Jihn0118)           |          [여일구](https://github.com/sikutisa)           |           [박호제](https://github.com/zini9188)           |           [이수민](https://github.com/suminjeff)           |
+|          [전소민(팀장)](https://github.com/goflvhxj96)          |          [김병주](https://github.com/defkimbyeongju)          |          [김진호](https://github.com/Jihn0118)           |          [여일구](https://github.com/sikutisa)           |           [박호제](https://github.com/zini9188)           |           [이수민](https://github.com/suminjeff)           |
 | :---------------------------------------------------------: | :-----------------------------------------------------------: | :------------------------------------------------------: | :------------------------------------------------------: | :-------------------------------------------------------: | :--------------------------------------------------------: |
 | <img src="https://github.com/goflvhxj96.png" width="120" /> | <img src="https://github.com/defkimbyeongju.png" width="120"> | <img src="https://github.com/Jihn0118.png" width="120" > | <img src="https://github.com/sikutisa.png" width="120" > | <img src="https://github.com/zini9188.png" width="120" /> | <img src="https://github.com/suminjeff.png" width="120" /> |
 |                           BE, AI                            |                              FE                               |                            BE                            |                        Infra, BE                         |                          BE, AI                           |                             FE                             |
@@ -47,8 +47,6 @@ VODA AI와 대화만 하면 일기가 만들어집니다!
 
 ## 🔨 기술 스택
 
-- [포팅 매뉴얼](./exec/포팅 매뉴얼.md)
-
 ### 💻 Frontend
 
 - Language: JavaScript
@@ -58,8 +56,8 @@ VODA AI와 대화만 하면 일기가 만들어집니다!
 
 ### 💾 Backend
 
-- Language: Java
-- Core: Spring
+- Language: Java 11
+- Core: SpringBoot
 - Database: MySQL, Redis, MongoDB, S3
 
 ### 🤖 AI
@@ -95,30 +93,43 @@ VODA AI와 대화만 하면 일기가 만들어집니다!
 ## 💡 주요 기능
 
 ### 🔑 소셜 로그인, 회원가입
-
+간편하게 로그인 할 수 있습니다.  
+<p align="center">
 <img src="./exec/assets/demo/signup.gif" width="30%" height="30%">
+</p>
 
 ### 📕 일기 작성
-
+"오늘 하루는 어떠셨어요?" "그 때 기분은 어떠셨나요?" AI와 대화하며 하루를 기록합니다.  
+<p align="center">
 <img src="./exec/assets/demo/create_diary.gif" width="30%" height="30%">
+</p>
 
 ### 📚 일기 목록
-
+대화를 기반으로 자동 생성된 그림일기와 대화내역을 조회할 수 있습니다.  
+<p align="center">
 <img src="./exec/assets/demo/diary_list.gif" width="30%" height="30%">
+</p>
 
 ### 📆 캘린더
-
+일기에서 분석된 그날의 감정들을 한눈에 볼 수 있습니다.  
+<p align="center">
 <img src="./exec/assets/demo/calendar.gif" width="30%" height="30%">
+</p>
 
 ### 🐶 펫 키우기
-
-<img src="./exec/assets/demo/pet_interaction.gif" width="30%" 
-height="30%">
+활동 로그 기반으로 다르게 진화하는 펫을 키우며 애착을 형성할 수 있습니다.  
+<p align="center">
+<img src="./exec/assets/demo/pet_interaction.gif" width="30%" height="30%">
+</p>
 
 ### 🛒 펫 상점
-
+아이템을 구매하고 펫에게 아이템을 부여할 수 있습니다.  
+<p align="center">
 <img src="./exec/assets/demo/item.gif" width="30%" height="30%">
+</p>
 
 ### 📊 감정 통계 리포트
-
+한 달간 작성한 일기를 다방면으로 분석한 리포트로 감정을 되돌아 볼 수 있습니다.
+<p align="center">
 <img src="./exec/assets/demo/emotion_report.gif" width="30%" height="30%">
+</p>
